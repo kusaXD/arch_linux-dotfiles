@@ -1,0 +1,18 @@
+# Secrets / environment
+.env
+.env.*
+*.secret
+*.pem
+*.key
+
+# Local/runtime data
+.cache/
+.local/
+*.log
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+
+# Git repositories accidentally copied into configs
+**/.git/
